@@ -8,10 +8,9 @@
   </head>
   <body>
     <div id="app">
-      <div>
         <h1>Color Scheme Generator</h1>
         <form id="color-form">
-          <input id="seed-color" name="seed-color" type="color"/>
+          <input id="seed-color" name="seed-color" type="color" aria-label="pick a seed color"/>
           <select id="scheme-mode" name="scheme-mode">
             <option value="monochrome">monochrome</option>
             <option value="monochrome-dark">monochrome-dark</option>
@@ -24,7 +23,6 @@
           </select>
           <button type="submit">Get Color Scheme</button>
         </form>
-      </div>
       <section id="color-display">
       </section>
     </div>
